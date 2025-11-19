@@ -86,7 +86,7 @@ class WooProductSliderPage {
   }
 
   async goto() {
-    await this.page.goto('https://eael.wpqa.site/woocommerce-elements/woo-product-slider/');
+    await this.page.goto('https://eael.obayedmamur.com/woocommerce-elements/woo-product-slider/');
   }
 
   // Scroll to specific preset sections

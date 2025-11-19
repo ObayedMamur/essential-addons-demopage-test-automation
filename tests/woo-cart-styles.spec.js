@@ -16,7 +16,7 @@ test.describe("Woo Cart - Style Tests", () => {
     wooCartPage = new WooCartPage(page);
 
     // Navigate directly to the cart page
-    await page.goto('https://eael.wpqa.site/woocommerce-elements/woo-cart/');
+    await page.goto('https://eael.obayedmamur.com/woocommerce-elements/woo-cart/');
     await page.waitForLoadState('domcontentloaded');
 
     // If we're regenerating the baseline, capture all styles and save them

@@ -1,6 +1,6 @@
 /**
  * Page Object Model for WooCommerce Cross Sells page
- * URL: https://eael.wpqa.site/woocommerce-elements/woo-cross-sells/
+ * URL: https://eael.obayedmamur.com/woocommerce-elements/woo-cross-sells/
  */
 
 class WooCrossSellsPage {

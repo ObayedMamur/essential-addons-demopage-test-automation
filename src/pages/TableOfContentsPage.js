@@ -1,6 +1,6 @@
 /**
  * Page Object Model for Table of Contents page
- * URL: https://eael.wpqa.site/extensions/table-of-contents
+ * URL: https://eael.obayedmamur.com/extensions/table-of-contents
  */
 import { captureComputedStyles } from '../utils/styleUtils.js';
 

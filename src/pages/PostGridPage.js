@@ -1,6 +1,6 @@
 /**
  * Page Object Model for Post Grid page
- * URL: https://eael.wpqa.site/dynamic-content-elements/post-grid/
+ * URL: https://eael.obayedmamur.com/dynamic-content-elements/post-grid/
  */
 import { captureComputedStyles } from '../utils/styleUtils.js';
 

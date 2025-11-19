@@ -48,7 +48,7 @@ test.describe("Content Timeline - Default Preset", () => {
     await expect.soft(widget.locator("div.eael-content-timeline-content img").first()).toHaveCSS("width", "150px");
     await expect
       .soft(widget.locator("div.eael-content-timeline-content img").first())
-      .toHaveAttribute("src", "https://eael.wpqa.site/wp-content/uploads/2024/10/image-01-150x150.png");
+      .toHaveAttribute("src", "https://eael.obayedmamur.com/wp-content/uploads/2024/10/image-01-150x150.png");
   });
 
   test("Test Content Tab > Links", async ({ page }) => {
