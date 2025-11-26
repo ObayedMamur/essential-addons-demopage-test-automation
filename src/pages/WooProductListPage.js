@@ -1,6 +1,6 @@
 /**
  * Page Object Model for WooCommerce Product List page
- * URL: https://eael.wpqa.site/woocommerce-elements/woo-product-list/
+ * URL: https://eael.obayedmamur.com/woocommerce-elements/woo-product-list/
  */
 
 class WooProductListPage {
@@ -9,7 +9,7 @@ class WooProductListPage {
    */
   constructor(page) {
     this.page = page;
-    this.url = 'https://eael.wpqa.site/woocommerce-elements/woo-product-list/';
+    this.url = 'https://eael.obayedmamur.com/woocommerce-elements/woo-product-list/';
 
     // Default Style (Style 1) Locators
     this.defaultStyleHeading = this.page.getByRole('heading', { name: 'Default', exact: true });

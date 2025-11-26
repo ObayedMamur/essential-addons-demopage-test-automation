@@ -1,6 +1,6 @@
 /**
  * Page Object Model for WooCommerce Product Carousel page
- * URL: https://eael.wpqa.site/woocommerce-elements/woo-product-carousel/
+ * URL: https://eael.obayedmamur.com/woocommerce-elements/woo-product-carousel/
  */
 
 export default class WooProductCarouselPage {
@@ -9,7 +9,7 @@ export default class WooProductCarouselPage {
    */
   constructor(page) {
     this.page = page;
-    this.url = 'https://eael.wpqa.site/woocommerce-elements/woo-product-carousel/';
+    this.url = 'https://eael.obayedmamur.com/woocommerce-elements/woo-product-carousel/';
 
     // Preset 1 Section - Use specific data-widget-id to avoid conflicts
     this.preset1Section = this.page.locator('[data-widget-id="b5275d0"]');

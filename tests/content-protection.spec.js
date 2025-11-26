@@ -5,7 +5,7 @@ import ContentProtectionPage from './pages/contentProtection.page';
 
 // Test data
 const PASSWORD = '1234';
-const BASE_URL = 'https://eael.wpqa.site/extensions/content-protection/';
+const BASE_URL = 'https://eael.obayedmamur.com/extensions/content-protection/';
 
 
 test.describe('Content Protection - Desktop', () => {

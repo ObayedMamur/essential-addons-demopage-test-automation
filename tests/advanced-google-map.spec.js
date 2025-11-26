@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-const BASE_URL = "https://eael.wpqa.site/dynamic-content-elements/advanced-google-map/";
+const BASE_URL = "https://eael.obayedmamur.com/dynamic-content-elements/advanced-google-map/";
 
 test.describe("Advanced Google Map", () => {
   test.beforeEach(async ({ page }) => {

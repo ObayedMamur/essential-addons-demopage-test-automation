@@ -1,6 +1,6 @@
 /**
  * Page Object Model for WooCommerce Thank You page
- * URL: https://eael.wpqa.site/woocommerce-elements/woo-thank-you/
+ * URL: https://eael.obayedmamur.com/woocommerce-elements/woo-thank-you/
  */
 
 class WooThankYouPage {

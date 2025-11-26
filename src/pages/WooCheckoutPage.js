@@ -1,6 +1,6 @@
 /**
  * Page Object Model for WooCommerce Checkout page
- * URL: https://eael.wpqa.site/woocommerce-elements/woo-checkout/
+ * URL: https://eael.obayedmamur.com/woocommerce-elements/woo-checkout/
  */
 
 class WooCheckoutPage {

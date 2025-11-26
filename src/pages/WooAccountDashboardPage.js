@@ -1,6 +1,6 @@
 /**
  * Page Object Model for WooCommerce Account Dashboard page
- * URL: https://eael.wpqa.site/woocommerce-elements/woo-account-dashboard/
+ * URL: https://eael.obayedmamur.com/woocommerce-elements/woo-account-dashboard/
  */
 
 class WooAccountDashboardPage {
@@ -9,7 +9,7 @@ class WooAccountDashboardPage {
    */
   constructor(page) {
     this.page = page;
-    this.url = 'https://eael.wpqa.site/woocommerce-elements/woo-account-dashboard/';
+    this.url = 'https://eael.obayedmamur.com/woocommerce-elements/woo-account-dashboard/';
 
     // Preset 1 Locators
     this.preset1Heading = this.page.getByRole('heading', { name: 'Preset 1' });

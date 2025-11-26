@@ -1,6 +1,6 @@
 /**
  * Page Object Model for WooCommerce Cart page
- * URL: https://eael.wpqa.site/woocommerce-elements/woo-cart/
+ * URL: https://eael.obayedmamur.com/woocommerce-elements/woo-cart/
  */
 import { captureComputedStyles } from '../utils/styleUtils.js';
 
@@ -96,7 +96,7 @@ class WooCartPage {
    * Navigate to the WooCommerce Cart page
    */
   async goto() {
-    const fullUrl = `https://eael.wpqa.site${this.url}`;
+    const fullUrl = `https://eael.obayedmamur.com${this.url}`;
     await this.page.goto(fullUrl);
     await this.page.waitForLoadState('networkidle');
   }
@@ -106,7 +106,7 @@ class WooCartPage {
    */
   async login() {
     // Go to login page
-    await this.page.goto('https://eael.wpqa.site/my-account/');
+    await this.page.goto('https://eael.obayedmamur.com/my-account/');
     await this.page.waitForLoadState('networkidle');
 
     // Check if already logged in
@@ -130,7 +130,7 @@ class WooCartPage {
   async clearCart() {
     try {
       // Go directly to the cart page
-      await this.page.goto('https://eael.wpqa.site/cart/');
+      await this.page.goto('https://eael.obayedmamur.com/cart/');
       await this.page.waitForLoadState('domcontentloaded');
 
       // Check if cart is already empty by looking for the empty cart message
@@ -191,7 +191,7 @@ class WooCartPage {
    */
   async addProductToCart(productName) {
     // Navigate to the shop page
-    await this.page.goto('https://eael.wpqa.site/shop/');
+    await this.page.goto('https://eael.obayedmamur.com/shop/');
     await this.page.waitForLoadState('networkidle');
 
     // First, try to find the product by its name

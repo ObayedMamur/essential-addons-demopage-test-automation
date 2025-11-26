@@ -12,7 +12,7 @@ test.describe("Woo Cart - Visibility Tests", () => {
     wooCartPage = new WooCartPage(page);
 
     // Navigate directly to the cart page
-    await page.goto('https://eael.wpqa.site/woocommerce-elements/woo-cart/');
+    await page.goto('https://eael.obayedmamur.com/woocommerce-elements/woo-cart/');
     await page.waitForLoadState('domcontentloaded');
   });
 
@@ -83,7 +83,7 @@ test.describe("Woo Cart - Visibility Tests", () => {
     console.log('Capturing styles with empty cart');
 
     // Navigate to the Woo Cart page
-    await page.goto('https://eael.wpqa.site/woocommerce-elements/woo-cart/');
+    await page.goto('https://eael.obayedmamur.com/woocommerce-elements/woo-cart/');
     await page.waitForLoadState('networkidle');
 
     // Scroll to Style 1 section

@@ -28,8 +28,8 @@ export default defineConfig({
             maxNumberOfFailuresToShow: 0,
             meta: [
               {
-                key: ":ea-n: Essential Addons Demo - Test Results",
-                value: "<https://ea-report.hurayraiit.com/ | 📂 Click Here!>",
+                key: ":ea-n: Essential Addons Automation - Test Report",
+                value: "<https://ea-report.obayedmamur.com/ | 📂 Wait for 5 mins to see the report!>",
               },
             ],
           },
@@ -39,7 +39,7 @@ export default defineConfig({
     : [["dot"], ["list"], ["html"]],
 
   use: {
-    baseURL: process.env.BASE_URL,
+    baseURL: process.env.BASE_URL ?? "https://eael.obayedmamur.com",
     testIdAttribute: "data-id",
 
     //screenshot: "on",
