@@ -1,11 +1,11 @@
-# Essential Addons Demopage Test Automation
+# Essential Addons for Elementor Test Automation
 
-This repository contains automated tests for the Essential Addons For Elementor Demo Pages using Playwright. The tests verify the functionality and visibility of various Essential Addons widgets and components.
+This repository contains automated tests for the Essential Addons For Elementor  using Playwright. The tests verify the functionality and visibility of various Essential Addons widgets and extensions.
 
 ## Repository Information
 
-- **Repository**: [HurayraIIT/essential-addons-demopage-test-automation](https://github.com/HurayraIIT/essential-addons-demopage-test-automation)
-- **Description**: Testing the Essential Addons For Elementor Demo Pages Using Playwright
+- **Repository**: [ObayedMamur/essential-addons-demopage-test-automation](https://github.com/ObayedMamur/essential-addons-demopage-test-automation)
+- **Description**: Testing the Essential Addons For Elementor Using Playwright
 - **Created**: June 20, 2024
 
 ## Project Structure
@@ -28,7 +28,7 @@ This repository contains automated tests for the Essential Addons For Elementor 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/HurayraIIT/essential-addons-demopage-test-automation.git
+git clone https://github.com/ObayedMamur/essential-addons-demopage-test-automation.git
 cd essential-addons-demopage-test-automation
 ```
 
